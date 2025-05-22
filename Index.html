@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenali Suara Hewan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🐾 Kenali Nama dan Suara Hewan 🐾</h1>
+
+  <div class="container">
+    <div class="animal">
+      <h2>🐱 Kucing</h2>
+      <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" alt="Kucing">
+      <br>
+      <button onclick="playSound('kucing')">Dengar Suara</button>
+      <audio id="kucing" src="https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-25156/zapsplat_animals_cat_meow_single_001_26508.mp3"></audio>
+    </div>
+
+    <div class="animal">
+      <h2>🐶 Anjing</h2>
+      <img src="https://cdn.pixabay.com/photo/2016/02/19/11/19/dog-1207816_1280.jpg" alt="Anjing">
+      <br>
+      <button onclick="playSound('anjing')">Dengar Suara</button>
+      <audio id="anjing" src="https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-46470/zapsplat_animals_dog_bark_single_001_52477.mp3"></audio>
+    </div>
+
+    <div class="animal">
+      <h2>🐮 Sapi</h2>
+      <img src="https://cdn.pixabay.com/photo/2016/07/21/12/53/cow-1539303_1280.jpg" alt="Sapi">
+      <br>
+      <button onclick="playSound('sapi')">Dengar Suara</button>
+      <audio id="sapi" src="https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-46470/zapsplat_animals_cow_moo_single_001_52534.mp3"></audio>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
